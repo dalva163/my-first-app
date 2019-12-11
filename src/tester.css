@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.tester-form .field {
+    width: 40%;
+    margin: 10px 0 0 10px;
+}
+
+.tester-form .submit-button {
+    width: 25%;
+    margin: 15px 0 0 10px;
+}
+
+/*Uses the ID tag on components to make it more specific */
+/* .tester-form .field #userAge {
+    margin: 10px;
+}
+
+.tester-form .field {
+    width: 40%;
+    margin: 0;
+}
+
+.tester-form .stuff {
+
+}
+
+.tester-form .stuff-2 {
+
+} */
+
+/*This is .LESS syntax, cool little technology that compiles down to css. Allows rule nesting for easy tracking of specificity. Its biggest boon*/
+/* .tester-form{
+    
+    .field{
+
+    }
+
+    .stuff {
+
+    }
+
+
+} */
